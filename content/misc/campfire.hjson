@@ -1,0 +1,40 @@
+{
+	type: GenericCrafter
+	
+	name: Campfire
+	description: Uses flammable fuel to light itself up. Doesn't do much except generates some particles.
+	
+	health: 100
+	itemCapacity: 15
+	
+	category: effect
+	
+	requirements: [
+		example-item/20
+		graphite/30
+	]
+	
+	size: 1
+	research: example-smelter
+	
+	craftEffect: {
+		particles: 5
+		length: 5
+		lifetime: 180
+		sizeFrom: 4
+		sizeTo: 0
+		colorFrom: FFA95F
+		colorTo: 404040
+	}
+	
+	ambientSound: smelter
+	ambientSoundVolume: 0.3
+	
+	consumes: {
+		itemFlammable: {}
+	}
+	
+	outputItem: {}
+	
+	craftTime: 45
+}
