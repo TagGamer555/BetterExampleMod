@@ -6,7 +6,7 @@
 	squareSprite: false
 	
 	health: 100
-	itemCapacity: 15
+	itemCapacity: 20
 	
 	category: effect
 	
@@ -19,14 +19,13 @@
 	research: example-smelter
 	
 	craftEffect: {
-		particles: 7
-		length: 10
-		lifetime: 180
-		sizeFrom: 3
+		particles: 10
+		length: 12
+		lifetime: 240
+		sizeFrom: 4
 		sizeTo: 0
 		colorFrom: FFA95F
 		colorTo: 404040
-		lightRadius: 7.5
 	}
 	
 	ambientSound: smelter
@@ -38,5 +37,5 @@
 	
 	outputItem: {}
 	
-	craftTime: 90
+	craftTime: 120
 }
