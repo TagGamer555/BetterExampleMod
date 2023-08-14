@@ -15,10 +15,6 @@
 		graphite/30
 	]
 	
-	emitLight: true
-	lightColor: FFA95F
-	lightRadius: 50
-	
 	size: 1
 	research: example-smelter
 	
@@ -30,6 +26,21 @@
 		sizeTo: 0
 		colorFrom: FFA95F
 		colorTo: 404040
+	}
+	
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault
+			}
+			{
+				type: DrawFlame
+				emitLight: true
+				lightColor: FFA95F
+				lightRadius: 50
+			}
+		]
 	}
 	
 	ambientSound: smelter
