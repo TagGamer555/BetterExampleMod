@@ -3,6 +3,7 @@
 	name: Example Hail Turret
 	description: Shoots an artillery shell which frags on impact.
 	health: 240
+	evnDisabled: 16 //env ban for erekir
 	shootSound: artillery
 	heatColor: FDB380
 	size: 1
