@@ -40,11 +40,11 @@
 			hitEffect: flakExplosion
 			despawnEffect: flakExplosion
 			collidesAir: false
-			fragBullets: 3
+			fragBullets: 4
 			fragBullet: {
-				damage: 5
+				damage: 8
 				speed: 5
-				lifetime: 16
+				lifetime: 8
 				width: 6
 				height: 6
 				collidesAir: false
