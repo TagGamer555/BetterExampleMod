@@ -1,0 +1,19 @@
+{
+	name: Example Wall
+	description: A wall that can withstand large damage. Armored. Reflecting. Insulating. Shocking.
+	health: 900
+	armor: 5
+	flashHit: true
+	insulated: true
+	chanceDeflect: 100
+	lightningChance: 1
+	
+	requirements: [
+		example-item/3
+		surge-alloy/1
+		phase-fabric/1
+		plastanium/1
+	]
+	category: defense
+	research: example-item
+}
