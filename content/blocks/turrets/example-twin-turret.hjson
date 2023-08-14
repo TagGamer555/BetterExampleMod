@@ -1,0 +1,67 @@
+{
+	type: ItemTurret
+	name: Example Twin Turret
+	description: Shoots two bullets at once.
+	health: 200
+	shootSound: shootSnap
+	heatColor: FDB380
+	size: 1
+	squareSprite: true
+	requirements: [
+		example-item/20
+		copper/10
+	]
+	category: turret
+	research: example-item
+	targetGround: false
+	targetAir: false
+	inaccuracy: 2.5
+	reload: 30
+	shoot: {
+		type: ShootAlternate
+		alternate: 3.5
+		shots: 2
+		shotDelay: 0
+	}
+	recoil: 1
+	shootX: 0
+	shootY: 3.5
+	range: 100
+	rotateSpeed: 4
+	ammoTypes: {
+		example-item: {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 25
+			width: 5
+			height: 6
+			backColor: B0B9C0
+			lightRadius: 0
+			damage: 12
+		}
+	}
+	drawer: {
+		type: DrawTurret
+		parts: [
+			{
+			type: RegionPart
+			suffix: -barrel
+			mirror: false
+			progress: recoil
+			moveX: 0
+			moveY: -0.5
+			moveRot: 0
+			heatColor: FDB380
+			under: true
+				moves: [
+					{
+					type: PartMove
+					progress: recoil
+					moveRot: 0
+					moveY: -1
+					}
+				]
+			}
+		]
+	}
+}
