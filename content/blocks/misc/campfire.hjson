@@ -17,7 +17,7 @@
 	
 	emitLight: true
 	lightColor: FFA95F
-	lightRadius: 5
+	lightRadius: 50
 	
 	size: 1
 	research: example-smelter
