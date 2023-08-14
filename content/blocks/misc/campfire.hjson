@@ -20,8 +20,8 @@
 	
 	craftEffect: {
 		particles: 10
-		length: 12
-		lifetime: 240
+		length: 15
+		lifetime: 300
 		sizeFrom: 4
 		sizeTo: 0
 		colorFrom: FFA95F
