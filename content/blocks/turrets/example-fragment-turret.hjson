@@ -20,12 +20,12 @@
 	}
 	inaccuracy: 20
 	reload: 60
-	recoil: 0
-	velocityRnd: 0.2
+	recoil: 0.3
+	velocityRnd: 0.1
 	shootX: 0
 	shootY: 2
 	range: 80
-	rotateSpeed: 4
+	rotateSpeed: 3
 	ammoTypes: {
 		example-item: {
 			type: BasicBulletType
