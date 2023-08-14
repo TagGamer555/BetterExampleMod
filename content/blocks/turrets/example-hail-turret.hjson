@@ -34,7 +34,7 @@
 			lightRadius: 0
 			damage: 10
 			splashDamage: 30
-			splashRadius: 40
+			splashRange: 40
 			buildingDamageMultiplier: 0.25
 			ammoMultiplier: 2
 			hitEffect: flakExplosion
