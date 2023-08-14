@@ -40,6 +40,24 @@
 			ammoMultiplier: 3
 			collidesAir: false
 			buildingDamageMultiplier: 0.25
+			hitEffect: {
+				particles: 1
+				lifetime: 30
+				length: 0
+				sizeFrom: 2
+				sizeTo: 0
+				colorFrom: B0B9C0
+				colorTo: 989AA4
+			}
+			despawnEffect: {
+				particles: 1
+				lifetime: 30
+				length: 0
+				sizeFrom: 2
+				sizeTo: 0
+				colorFrom: B0B9C0
+				colorTo: 989AA4
+			}
 			fragBullets: 4
 			fragBullet: {
 				damage: 5
@@ -50,6 +68,25 @@
 				frontColor: B0B9C0
 				backColor: 989AA4
 				lightRadius: 0
+				
+				hitEffect: {
+					particles: 1
+					lifetime: 30
+					length: 0
+					sizeFrom: 2
+					sizeTo: 0
+					colorFrom: B0B9C0
+					colorTo: 989AA4
+				}
+				despawnEffect: {
+					particles: 1
+					lifetime: 30
+					length: 0
+					sizeFrom: 2
+					sizeTo: 0
+					colorFrom: B0B9C0
+					colorTo: 989AA4
+				}
 			}
 		}
 	}
