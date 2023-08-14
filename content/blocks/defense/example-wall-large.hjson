@@ -1,4 +1,5 @@
 {
+	type: wall
 	name: Large Example Wall
 	description: A wall that can withstand large damage. Armored. Reflecting. Insulating. Shocking. Larger.
 	health: 3600
@@ -15,5 +16,6 @@
 		plastanium/4
 	]
 	category: defense
-	research: example-item
+	research: example-wall
+	size: 2
 }

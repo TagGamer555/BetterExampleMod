@@ -1,4 +1,5 @@
 {
+	type: wall
 	name: Example Wall
 	description: A wall that can withstand large damage. Armored. Reflecting. Insulating. Shocking.
 	health: 900
