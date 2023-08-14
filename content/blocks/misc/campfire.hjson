@@ -3,6 +3,7 @@
 	
 	name: Campfire
 	description: Uses flammable fuel to light itself up. Doesn't do much except generates some particles.
+	squareSprite: false
 	
 	health: 100
 	itemCapacity: 15
@@ -18,10 +19,10 @@
 	research: example-smelter
 	
 	craftEffect: {
-		particles: 5
-		length: 5
+		particles: 7
+		length: 10
 		lifetime: 180
-		sizeFrom: 4
+		sizeFrom: 3
 		sizeTo: 0
 		colorFrom: FFA95F
 		colorTo: 404040
@@ -36,5 +37,5 @@
 	
 	outputItem: {}
 	
-	craftTime: 45
+	craftTime: 90
 }
