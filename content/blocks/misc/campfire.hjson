@@ -15,6 +15,9 @@
 		graphite/30
 	]
 	
+	lightColor: FFA95F
+	lightRadius: 5
+	
 	size: 1
 	research: example-smelter
 	
