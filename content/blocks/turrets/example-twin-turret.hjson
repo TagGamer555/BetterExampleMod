@@ -13,15 +13,14 @@
 	]
 	category: turret
 	research: example-item
-	targetGround: false
-	targetAir: false
+	targetGround: true
+	targetAir: true
 	inaccuracy: 2.5
-	reload: 30
+	reload: 20
 	shoot: {
 		type: ShootAlternate
 		shots: 2
 		shotDelay: 0
-		alternate: 1
 	}
 	recoil: 1
 	shootX: 0
