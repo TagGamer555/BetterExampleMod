@@ -3,7 +3,7 @@
 	name: Example Twin Turret
 	description: Shoots two bullets at once.
 	health: 200
-	shootSound: shootSnap
+	//shootSound: shootSnap
 	heatColor: FDB380
 	size: 1
 	squareSprite: true
@@ -21,6 +21,7 @@
 		type: ShootAlternate
 		shots: 2
 		shotDelay: 0
+		alternate: 1
 	}
 	recoil: 1
 	shootX: 0
