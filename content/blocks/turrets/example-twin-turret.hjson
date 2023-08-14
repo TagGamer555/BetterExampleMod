@@ -44,9 +44,10 @@
 		type: DrawTurret
 		parts: [
 			{
+			alternate: true
 			type: RegionPart
 			suffix: -barrel
-			mirror: false
+			mirror: true
 			progress: recoil
 			moveX: 0
 			moveY: -0.5
