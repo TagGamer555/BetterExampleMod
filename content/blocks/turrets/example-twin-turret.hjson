@@ -19,13 +19,12 @@
 	reload: 30
 	shoot: {
 		type: ShootAlternate
-		alternate: 3.5
 		shots: 2
 		shotDelay: 0
 	}
 	recoil: 1
 	shootX: 0
-	shootY: 3.5
+	shootY: 2
 	range: 100
 	rotateSpeed: 4
 	ammoTypes: {
@@ -38,13 +37,13 @@
 			backColor: B0B9C0
 			lightRadius: 0
 			damage: 12
+			ammoMultiplier: 1
 		}
 	}
 	drawer: {
 		type: DrawTurret
 		parts: [
 			{
-			alternate: true
 			type: RegionPart
 			suffix: -barrel
 			mirror: true
