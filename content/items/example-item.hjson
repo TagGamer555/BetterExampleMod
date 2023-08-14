@@ -1,0 +1,7 @@
+{
+	displayName: Example Item
+	description: An item that makes Example things.
+	cost: 2 //affects build speed
+	color: B0B9C0
+	research: core-shard
+}
