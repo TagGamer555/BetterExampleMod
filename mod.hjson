@@ -3,7 +3,7 @@
 	subtitle: ""
 	displayName: "Better Example Mod"
 	description: "DISCORD: https://discord.gg/sGn9hvPgEE (join!)\n\nState: INDEV\nContent: NONE\nPlayable: FALSE"
-	author: "[lime]KillerIKY - lead dev\n[coral]Renale - testing and some ideas\nAlvar - balancing\nNeonFlames - helped with getting used to GitHub"
+	author: "KillerIKY/TagGamer555"
 	minGameVersion: "136"
 	version: "000"
 	main: "bem.bemMod"
