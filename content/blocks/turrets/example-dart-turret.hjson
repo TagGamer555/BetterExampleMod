@@ -12,7 +12,7 @@
 		lead/10
 	]
 	category: turret
-	research: example-item
+	research: example-twin-turret
 	targetGround: true
 	targetAir: true
 	inaccuracy: 1.25

@@ -13,7 +13,7 @@
 		graphite/10
 	]
 	category: turret
-	research: example-item
+	research: example-dart-turret
 	targetGround: true
 	targetAir: false
 	inaccuracy: 0
@@ -49,6 +49,8 @@
 				width: 6
 				height: 6
 				collidesAir: false
+				frontColor: B0B9C0
+				backColor: 989AA4
 			}
 		}
 	}

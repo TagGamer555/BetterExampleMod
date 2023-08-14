@@ -1,0 +1,39 @@
+{
+	type: GenericCrafter
+	
+	name: Example Smelter
+	description: Best of it's kind!
+	
+	category: crafting
+	
+	research: core-shard
+	requirements: [
+		copper/100
+	]
+	
+	size: 2
+	
+	craftEffect: smeltsmoke
+	drawer: {
+		type: DrawMulti
+		drawers: [DrawDefault, DrawFlame]
+	}
+	
+	ambientSound: smelter
+	ambientSoundVolume: 0.25
+	
+	consumes: {
+		items: {
+			items: [
+				copper/1
+				sand/2
+			]
+		}
+	}
+	
+	outputItem: {
+		item: example-item
+		amount: 1
+	}
+	craftTime: 180
+}
