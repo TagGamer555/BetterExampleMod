@@ -1,0 +1,56 @@
+{
+	type: ItemTurret
+	name: Example Fragment Turret
+	description: Shoots a bunch of shards which also split into shards.
+	health: 800
+	shootSound: shootAlt
+	heatColor: FDB380
+	size: 2
+	squareSprite: true
+	requirements: [
+		example-item/80
+		titanium/20
+	]
+	category: turret
+	research: example-dart-turret
+	targetGround: true
+	targetAir: false
+	shoot: {
+		shots: 8
+	}
+	inaccuracy: 20
+	reload: 60
+	recoil: 0
+	velocityRnd: 0.2
+	shootX: 0
+	shootY: 2
+	range: 80
+	rotateSpeed: 4
+	ammoTypes: {
+		example-item: {
+			type: BasicBulletType
+			speed: 4
+			lifetime: 20
+			width: 4
+			height: 12
+			frontColor: B0B9C0
+			backColor: 989AA4
+			lightRadius: 0
+			damage: 20
+			ammoMultiplier: 3
+			collidesAir: false
+			buildingDamageMultiplier: 0.25
+			fragBullets: 4
+			fragBullet: {
+				damage: 5
+				lifetime: 10
+				speed: 2
+				width: 4
+				height: 4
+				frontColor: B0B9C0
+				backColor: 989AA4
+				lightRadius: 0
+			}
+		}
+	}
+}
