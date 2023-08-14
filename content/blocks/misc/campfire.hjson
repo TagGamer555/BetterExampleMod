@@ -36,9 +36,7 @@
 			}
 			{
 				type: DrawFlame
-				emitLight: true
-				lightColor: FFA95F
-				lightRadius: 50
+				lightRadius: 40
 			}
 		]
 	}
