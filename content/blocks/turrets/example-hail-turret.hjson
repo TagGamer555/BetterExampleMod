@@ -1,0 +1,54 @@
+{
+	type: ItemTurret
+	name: Example Hail Turret
+	description: Shoots an artillery shell which frags on impact.
+	health: 240
+	shootSound: shootAlt
+	heatColor: FDB380
+	size: 1
+	squareSprite: true
+	requirements: [
+		example-item/24
+		graphite/10
+	]
+	category: turret
+	research: example-item
+	targetGround: true
+	targetAir: false
+	inaccuracy: 0
+	reload: 80
+	recoil: 0.4
+	shootX: 0
+	shootY: 3
+	range: 200
+	rotateSpeed: 4
+	ammoTypes: {
+		example-item: {
+			type: ArtilleryBulletType
+			speed: 5
+			lifetime: 40
+			width: 7.75
+			height: 7.75
+			frontColor: B0B9C0
+			backColor: 989AA4
+			lightRadius: 0
+			damage: 10
+			splashDamage: 30
+			splashRadius: 40
+			buildingDamageMultiplier: 0.25
+			ammoMultiplier: 2
+			hitEffect: flakExplosion
+			despawnEffect: flakExplosion
+			collideAir: false
+			fragBullets: 3
+			fragBullet: {
+				damage: 5
+				speed: 5
+				lifetime: 16
+				width: 6
+				height: 6
+				collideAir: false
+			}
+		}
+	}
+}
