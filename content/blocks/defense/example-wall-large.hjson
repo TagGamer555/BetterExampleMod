@@ -1,0 +1,19 @@
+{
+	name: Large Example Wall
+	description: A wall that can withstand large damage. Armored. Reflecting. Insulating. Shocking. Larger.
+	health: 3600
+	armor: 5
+	flashHit: true
+	insulated: true
+	chanceDeflect: 100
+	lightningChance: 1
+	
+	requirements: [
+		example-item/12
+		surge-alloy/4
+		phase-fabric/4
+		plastanium/4
+	]
+	category: defense
+	research: example-item
+}
