@@ -26,6 +26,7 @@
 		sizeTo: 0
 		colorFrom: FFA95F
 		colorTo: 404040
+		lightRadius: 7.5
 	}
 	
 	ambientSound: smelter
