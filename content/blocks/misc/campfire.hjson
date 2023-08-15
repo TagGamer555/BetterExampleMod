@@ -2,11 +2,11 @@
 	type: GenericCrafter
 	
 	name: Campfire
-	description: Uses flammable fuel to light itself up. Doesn't do much except generates some particles.
+	description: Uses flammable fuel to create light and pretty fire particles.
 	squareSprite: false
 	
 	health: 100
-	itemCapacity: 20
+	itemCapacity: 30
 	
 	category: effect
 	
@@ -42,12 +42,13 @@
 			}
 			{
 				type: DrawParticles
-				color: ffd59e
+				color: FFA95F
 				alpha: 0.6
-				particleSize: 4
+				particleSize: 2
 				particles: 16
 				particleRad: 12
-				particleLife: 140
+				particleLife: 120
+				interp: circleOut
 			}
 		]
 	}
@@ -61,5 +62,5 @@
 	
 	outputItem: {}
 	
-	craftTime: 120
+	craftTime: 300
 }
