@@ -18,7 +18,7 @@
 	size: 1
 	research: example-smelter
 	
-	craftEffect: {
+	//craftEffect: {
 		particles: 10
 		length: 15
 		lifetime: 300
@@ -37,6 +37,15 @@
 			{
 				type: DrawFlame
 				lightRadius: 40
+			}
+			{
+				type: DrawParticles
+				color: ffd59e
+				alpha: 0.6
+				particleSize: 4
+				particles: 16
+				particleRad: 12
+				particleLife: 140
 			}
 		]
 	}
