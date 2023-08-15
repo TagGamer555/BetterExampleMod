@@ -1,0 +1,40 @@
+{
+	type: HeatProducer
+	name: Example Heater
+	description: A smaller version of the Electric Heater. Three times less efficient, but consumes four times less space. Uses low amounts of power.
+	size: 1
+	rotateDraw: false
+	researchCostMultiplier: 1
+	category: crafting
+	research: electric-heater
+	requirements: [
+		tungsten/30
+		graphite/30
+		oxide/20
+	]
+	heatOutput: 1
+	regionRotated1: 1
+	ambientSound: extractLoop
+	ambientSoundVolume: 0.05
+	consumes: {
+		power: 0.75
+	}
+	drawer: {
+		type: DrawMulti
+		drawers: [
+			{
+				type: DrawDefault 
+			}
+			{
+				type: DrawGlowRegion
+				alpha: 1
+				color: FDB380
+				glowIntensity: 0.01
+				glowScale: 1
+			}
+			{
+				type: DrawHeatOutput 
+			}
+		]
+	}
+}
