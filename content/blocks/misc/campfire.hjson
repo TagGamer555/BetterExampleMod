@@ -18,7 +18,8 @@
 	size: 1
 	research: example-smelter
 	
-	//craftEffect: {
+	/*
+	craftEffect: {
 		particles: 10
 		length: 15
 		lifetime: 300
@@ -27,6 +28,7 @@
 		colorFrom: FFA95F
 		colorTo: 404040
 	}
+	*/
 	
 	drawer: {
 		type: DrawMulti
