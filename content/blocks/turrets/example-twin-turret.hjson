@@ -12,7 +12,7 @@
 		copper/10
 	]
 	category: turret
-	research: example-item
+	research: example-smelter
 	targetGround: true
 	targetAir: true
 	inaccuracy: 2.5

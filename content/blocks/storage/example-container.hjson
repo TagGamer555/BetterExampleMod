@@ -1,0 +1,18 @@
+{
+	name: Example Crafte
+	description: Small size and small item capacity. Does not increase core storage capacity.
+	type: StorageBlock
+	squareSprite: false
+	size: 1
+	hasItems: true
+	itemCapacity: 75
+	health: 200
+	coreMerge: false
+	category: effect
+	research: example-smelter
+	requirements: [
+		example-item/30
+		graphite/20
+		lead/40
+	]
+}
