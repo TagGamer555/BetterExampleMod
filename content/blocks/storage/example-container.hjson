@@ -1,5 +1,5 @@
 {
-	name: Example Crafte
+	name: Example Container
 	description: Small size and small item capacity. Does not increase core storage capacity.
 	type: StorageBlock
 	squareSprite: false
